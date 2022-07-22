@@ -130,13 +130,13 @@ button:hover{
 
 /* SERVICE SECTION */
 .service-section{
-  /* padding: 170px 412.44px 131.11px; */
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .service-section h2{
+  margin-top: -25px;
   font-weight: 900;
   font-size: 18px;
   line-height: 143.1%;
@@ -149,6 +149,8 @@ button:hover{
   font-size: 38px;
   line-height: 143.1%;
   text-align: center;
+  width: 615.11px;
+height: 108px;
   color: #000000;
   margin-top: 16.03px;
 }
@@ -166,14 +168,16 @@ button:hover{
 
 
 .shape-section{
-    padding: 131.11px 179.2px 336.54px 119.62px;
-}
+    
+  /* padding:0px 179.2px 0px ; */
+  }
 
 
 .triangle-section{
   display: flex;
   justify-content: space-between;
   gap: 37.25px;
+  padding:131px 119.62px 0px ;
 }
 
  
@@ -209,17 +213,17 @@ button:hover{
   padding-left: 126.76px;
 }
 
-
 /* CIRCLE SECTION */
 
 .circle-section{
   display: flex;
   justify-content: space-between;
   gap: 37.25px;
+  padding: 0px 180px 0px;
 }
 
  
- .edge-circle{
+ /* .edge-circle{
   width: 460.6px;
   height: 346.91px;
  }
@@ -227,7 +231,7 @@ button:hover{
  .edge-circle img{
   width: 100%;
   height: 100%;
- }
+ } */
 
 .circle-text h2{
   font-weight: 700;
@@ -248,7 +252,7 @@ button:hover{
   color: #7F7E7E;
   text-align: justify;
   width: 403.87px;
-  padding-left: 45px;
+  padding-left: 35px;
 }
 
   
@@ -258,10 +262,11 @@ button:hover{
   display: flex;
   justify-content: space-between;
   gap: 37.25px;
+  padding: 0px 166.54px 0px;
 }
 
  
- .edge-square{
+ /* .edge-square{
   width: 368.26px;
   height: 319.36px; 
  }
@@ -270,7 +275,7 @@ button:hover{
   width: 100%;
   height: 100%;
   padding-left: 45px;;
- }
+ } */
 
 .square-text h2{
   font-weight: 700;
@@ -294,14 +299,205 @@ button:hover{
   padding-left: 126.76px;
 }
 
+.square-section{
+  margin-top: 89.64px;
+}
 
 
+/* PORTFOLIO SECTION */
+.portfolio{
+  padding: 0px 119.46px 0px;
+}
+.portfolio-grid img{
+  width: 374.41px;
+  height: 464.05px;
+}
+
+.portfolio-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio h2{
+  margin-top: 300px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #FF688C;
+}
+
+.portfolio h3{
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #000000;
+  margin-top: 16.03px;
+  width: 615.11px;
+height: 108px;
+}
+
+.portfolio p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #7F7E7E;
+  margin-top: 50.35px;
+  margin-bottom: 64.99px;
+  width: 403.87px;
+}
+
+.portfolio-grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+
+}
+
+.btn{
+text-align: center;
+  
+}
+
+.btn button{
+  width: 147.02px;
+  height: 45.83px;
+  background: #FFFFFF;
+  border: 2px solid #C4C4C4;
+  border-radius: 90px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143.1%;
+  /* identical to box height, or 23px */
+
+  text-align: center;
+
+color: #FF688C;
+}
+/* OUR TEAM SECTION */
+
+.our-team{
+  padding: 0px 123.01px 0px;
+}
+
+.team-text h2{
+  margin-top: 216.96px;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #FF688C;
+}
+
+.team-text h3{
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #000000;
+  width: 615.11px;
+height: 108px;
+  margin-top: 16.03px
+}
+
+.team-text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #7F7E7E;
+  margin-top: 50.35px;
+  margin-bottom: 64.99px;
+  width: 403.87px;
+}
+
+.team-text{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.team{
+  display: flex;
+  justify-content: space-between;
+  gap: 17px;
+  /* width: 274px;
+  height: 342.39px; */
+}
+
+.team-image h2{
+  margin-top: 26px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #000000;
+}
 
 
+.team-image p{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143.1%;
+
+  color: #696969;
+
+}
+
+ .rainbow-image{
+ width: 1342.20px;
+ height: 299.7px;
+}
 
 
+.rainbow-image img{
+  width: 100%;
+  height: 100%;
+}
 
 
+ .work{
+  text-align: center;
+  padding:0px  433.23px 0px;
+ }
+
+ .work-text h2{
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 143.1%;
+  margin-top: 49.28px;
+  color: #000000;
+ }
+
+ 
+.work p{
+  font-weight: 400;
+font-size: 18px;
+line-height: 143.1%;
+color: #7F7E7E;
+width: 519.35px;
+margin-top: 20.88px;
+}
+
+.btn2 button{
+width: 147.02px;
+height: 45.83px;
+background: linear-gradient(101.53deg, #127CFF -9.34%, #2FC1FE 106.23%);
+border-radius: 90px;
+text-align: center;
+font-weight: 400;
+  font-size: 16px;
+  line-height: 143.1%;
+  /* identical to box height, or 23px */
+  
+  text-align: center;
+   border: none;
+   margin-top: 57.22px;
+  color: #FFFFFF
+
+}
 
 
 
@@ -310,6 +506,8 @@ button:hover{
 
 
 @media screen and (max-width: 768px){
+
+
    ul{
     display: none;
    }
@@ -322,17 +520,23 @@ button:hover{
     width: 100%;
     height: 100%;
   }
-  .modern-section{
+  /* .modern-section{
   height: 940px;
   padding:0;  
-  }
+  } */
 
   .text h3{
     font-size: 45px;
   }
 
   .modern-software{
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+
+  .modern-software h2{
+    font-size: 25px;
   }
   
   .text button{
@@ -361,7 +565,6 @@ button:hover{
   }
 
   .service-section h3{
-    padding-left: 2px;
     text-align: center;
     font-size: 20px;
   }
@@ -390,8 +593,11 @@ button:hover{
      }
      
      .triangle-section{
-      display: block;
-      margin-top: 50px;
+      display: grid;
+      grid-template-columns: 0.2fr 1fr;
+
+      /* display: block;
+      margin-top: 50px; */
     }
 
       .triangle-text p{
