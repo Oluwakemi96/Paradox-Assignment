@@ -1,0 +1,421 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+}
+
+
+.hero-section{
+  background-image: url(/Assets/images/background-one.png);
+
+  background-size: cover;
+  height: 862.63px;
+  padding: 22.58px 154.74px 59.44px 120.31px;
+}
+
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+ ul a{
+  padding: 39.53px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.1%;
+  text-align: center;  
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: pointer;
+  
+}
+
+a:hover{
+  color: black;
+}
+
+.modern-software{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.software-triangle{
+  width: 583.29px;
+  height: 540.21px;
+}
+.software-triangle img{
+  width: 100%;
+  height: 100%;
+}
+
+.text h3{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 143.1%;
+  color: #FFFFFF;
+}
+
+.text p{
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150.1%;
+  color: #FFFFFF;
+  margin-top: 27.31px;
+
+}
+ 
+.text button{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #FFFFFF;
+  width: 147.02px;
+  height: 45.83px;
+  background: rgba(113, 213, 255, 0.24);
+  border-radius: 90px;
+  border: none;
+  color: #FFFFFF;
+  margin-top:53.7px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: black;
+}
+
+.icons{
+  width: 143.88px;
+  height: 17.41px;
+  margin-top: 100.89px;
+}
+
+.facebook{
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.instagram{
+  width:100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.linkedin{
+  width:100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.twitter{
+  width:100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* SERVICE SECTION */
+.service-section{
+  /* padding: 170px 412.44px 131.11px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-section h2{
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #FF688C;
+
+}
+
+.service-section h3{
+  font-weight: 900;
+  font-size: 38px;
+  line-height: 143.1%;
+  text-align: center;
+  color: #000000;
+  margin-top: 16.03px;
+}
+
+.service-section p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  text-align: center;
+  margin-top: 50.35px;
+  color: #7F7E7E;
+}
+
+/* TRIANGLE SECTION */
+
+
+.shape-section{
+    padding: 131.11px 179.2px 336.54px 119.62px;
+}
+
+
+.triangle-section{
+  /* padding: 131.11px 202.07px 106.34px 119.62; */
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 100px;
+  margin-top: 132px; */
+  /* align-items: center; */
+  gap: 37.25px;
+}
+
+ 
+ .edge-triangle{
+  width: 465.94px;
+  height: 467.15px;
+ }
+
+ .edge-triangle img{
+  width: 100%;
+  height: 100%;
+ }
+
+.triangle-text h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143.1%;  
+  color: #000000;
+  text-align: center;
+  margin-top:123px;
+  margin-bottom: 64.34px;
+  width: 615.11px;
+  
+}
+
+.triangle-text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #7F7E7E;
+  text-align: justify;
+  width: 488.87px;
+  padding-left: 126.76px;
+}
+
+.triangle-text{
+  /* margin-right:90px ; */
+}
+
+/* CIRCLE SECTION */
+
+.circle-section{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 100px; */
+  /* margin-top: 50px; */
+  gap: 37.25px;
+}
+
+ 
+ .edge-circle{
+  width: 460.6px;
+  height: 346.91px;
+ }
+
+ .edge-circle img{
+  width: 100%;
+  height: 100%;
+ }
+
+.circle-text h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143.1%;  
+  color: #000000;
+  text-align: center;
+  margin-top:106.82px;
+  margin-bottom: 64.34px;
+  width: 615.11px;
+  
+}
+
+.circle-text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #7F7E7E;
+  text-align: justify;
+  width: 403.87px;
+  padding-left: 45px;
+}
+
+.circle-text{
+  /* margin-left: 35px; */
+}
+  
+/* SQUARE SECTION */
+
+.square-section{
+  display: flex;
+  justify-content: space-between;
+  /* margin: 0 100px; */
+  /* margin-top: 80px; */
+  /* align-items: center; */
+  gap: 37.25px;
+}
+
+ 
+ .edge-square{
+  width: 368.26px;
+  height: 319.36px; 
+ }
+
+ .edge-square img{
+  width: 100%;
+  height: 100%;
+  padding-left: 45px;;
+ }
+
+.square-text h2{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 143.1%;  
+  color: #000000;
+  text-align: center;
+  margin-top: 80.73px;
+  margin-bottom: 64.34px;
+  width: 615.11px;
+  
+}
+
+.square-text p{
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 143.1%;
+  color: #7F7E7E;
+  text-align: justify;
+  width: 488.87px;
+  padding-left: 126.76px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+   ul{
+    display: none;
+   }
+
+   .software-triangle{
+    width: 385.29px;
+    height: 340.21px;
+  }
+  .software-triangle img{
+    width: 100%;
+    height: 100%;
+  }
+  .modern-section{
+  height: 940px;
+  padding:0;  
+  }
+
+  .text h3{
+    font-size: 45px;
+  }
+
+  .modern-software{
+    flex-direction: column;
+  }
+  
+  .text button{
+    margin-top: 35px;
+  }
+
+  .icons{
+    display: block;
+    margin-top: 30px;
+    padding-right: 95px;
+  }
+
+  .text h3{
+    padding-top:30px;
+  }
+
+  .logo1{
+    position: absolute;
+    top:0;
+    left:2px;
+  }
+
+  .service-section h2{
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .service-section h3{
+    padding-left: 2px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .text p{
+    font-size: 14px;
+    margin-top: 30px;
+    text-align: justify;
+    }
+
+    .edge-triangle{
+      width: 200.95px;
+      height: 200.15px;
+    }
+
+    .edge-triangle img{
+      width: 100%;
+      height: 100%;
+     }
+
+      .triangle-text h2{
+        font-size: 16px;
+        width: 200px;
+        margin-top: 20px;
+        
+     }
+     
+     .triangle-section{
+      display: block;
+      margin-top: 50px;
+    }
+
+      .triangle-text p{
+      font-size: 15px;
+      width: 203.87px;
+      margin-bottom: 100px;
+      padding-left: 0;
+      }
+  }
+
+
+  
