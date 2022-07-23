@@ -20,13 +20,13 @@
   justify-content: space-between;
 }
 
-ul{
+ul.icons-list{
   display: flex;
   justify-content: space-between;
   list-style: none;
 }
 
- ul a{
+ ul.icons-list a{
   padding: 39.53px;
   font-weight: 400;
   font-size: 16px;
@@ -150,7 +150,7 @@ button:hover{
   line-height: 143.1%;
   text-align: center;
   width: 615.11px;
-height: 108px;
+  /* height: 108px; */
   color: #000000;
   margin-top: 16.03px;
 }
@@ -222,16 +222,6 @@ height: 108px;
   padding: 0px 180px 0px;
 }
 
- 
- /* .edge-circle{
-  width: 460.6px;
-  height: 346.91px;
- }
-
- .edge-circle img{
-  width: 100%;
-  height: 100%;
- } */
 
 .circle-text h2{
   font-weight: 700;
@@ -264,18 +254,6 @@ height: 108px;
   gap: 37.25px;
   padding: 0px 166.54px 0px;
 }
-
- 
- /* .edge-square{
-  width: 368.26px;
-  height: 319.36px; 
- }
-
- .edge-square img{
-  width: 100%;
-  height: 100%;
-  padding-left: 45px;;
- } */
 
 .square-text h2{
   font-weight: 700;
@@ -336,7 +314,7 @@ height: 108px;
   color: #000000;
   margin-top: 16.03px;
   width: 615.11px;
-height: 108px;
+  height: 108px;
 }
 
 .portfolio p{
@@ -371,16 +349,13 @@ text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 143.1%;
-  /* identical to box height, or 23px */
-
   text-align: center;
-
-color: #FF688C;
+  color: #FF688C;
 }
 /* OUR TEAM SECTION */
 
 .our-team{
-  padding: 0px 123.01px 0px;
+  padding: 0px 140px 0px;
 }
 
 .team-text h2{
@@ -399,7 +374,7 @@ color: #FF688C;
   text-align: center;
   color: #000000;
   width: 615.11px;
-height: 108px;
+  height: 108px;
   margin-top: 16.03px
 }
 
@@ -422,8 +397,8 @@ height: 108px;
 
 .team{
   display: flex;
-  justify-content: space-between;
-  gap: 17px;
+  justify-content: space-around;
+  gap: 27px;
   /* width: 274px;
   height: 342.39px; */
 }
@@ -441,13 +416,12 @@ height: 108px;
   font-weight: 400;
   font-size: 16px;
   line-height: 143.1%;
-
   color: #696969;
-
 }
 
+
  .rainbow-image{
- width: 1342.20px;
+ width: 1340.20px;
  height: 299.7px;
 }
 
@@ -498,6 +472,108 @@ font-weight: 400;
   color: #FFFFFF
 
 }
+
+.info-grid{
+  display: grid;
+  grid-template-columns: 388.23px 1fr 
+
+}
+
+
+.company-info{
+
+  padding: 183.46px 226.65px 0px 114.81px;
+  
+}
+
+
+.colored-logo{
+  background-image: url(/Assets/images/logo-coloured.svg);
+  background-repeat: no-repeat;
+  
+}
+.info1{
+  display: grid;
+  grid-template-columns:50.69px 1fr;
+  column-gap: 5px;  
+}
+
+.info1 h3{
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 180.1%;
+  color: #000000;
+  margin-top: 6px;
+}
+
+.info ul{
+  list-style: none;
+}
+
+.info li{
+font-weight: 400;
+font-size: 16px;
+line-height: 190.1%;
+color: #797979;
+
+}
+
+
+.info p{
+width: 146px;
+font-weight: 400;
+font-size: 16px;
+line-height: 180.1%;
+color: #797979;
+}
+
+.info h3{
+font-weight: 700;
+font-size: 16px;
+line-height: 180.1%;
+/* identical to box height, or 24px */
+
+
+color: #000000;
+
+}
+.product-grid{
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr
+}
+
+.product-grid{
+  margin-left: 100px;
+}
+
+
+.copyright{
+  padding: 85.49px 142.94px 111.97px ;
+}
+
+.copyright{
+  display: flex;
+  justify-content:space-between;
+}
+
+.dull-icons{
+  display: flex;
+  justify-content: space-between;
+  gap:24.95px;
+}
+
+ .copyright p{
+  width: 451px;
+  margin-left: -27px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150.1%;
+  color: #797979;
+ } 
+
+
+
+
 
 
 
